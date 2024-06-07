@@ -19,11 +19,11 @@ body{
 }
 .fi{
     
-    background-color:white;
+   transition: 0.10s;
     height: 496px;
     width: 732px;
     border-radius: 20px;
-    background-image: url(lhktiyjh.png);
+    background-image: url(jyku.png);
     background-size: cover;
 }
 .fi:hover{
@@ -50,6 +50,7 @@ html::-webkit-scrollbar-thumb{
     padding: 2px;
     border-radius: 20px;
     text-decoration: none;
+    transition: 0.10s;
 }
 .op:hover{
     background-color: #132589;
