@@ -568,11 +568,131 @@ html::-webkit-scrollbar-thumb{
 a{
 	text-decoration: none;
 }
-.pre{
+#pre{
 	background: #1d1f39  url(yhtj.gif) no-repeat center center;
 	background-size: 30%;
 	height: 100%;
 	width: 100%;
 	position: fixed;
 	z-index: 100;
+}
+@media screen and (max-width:375px){
+	.im{background-image: url(ergrt.png);
+    width: 186px;
+    height: 189px;
+    background-size: cover;
+    margin-left: 89px;
+    margin-top: 6px;
+    transition: 0.8s;
+    filter: drop-shadow(10px 10px 15px black);}
+	
+
+
+	.fi{font-family: Arial;
+    color: white;
+    width: 251px;
+    height: 158px;
+    margin-left: 21px;
+    margin-top: 22px;
+    background-image: linear-gradient(#1b2646, #19142a);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 1.20s;
+    font-size: 11px;}
+
+
+	.sub{font-family: Arial;
+    color: white;
+    margin-left: 21px;
+    margin-top: 20px;
+    font-size: 13px;}
+
+	.og{
+		background-color: red;
+		height: 69px;
+		width: 74px;
+		margin-top: 153px;
+		border-top-right-radius: 80px;
+	}
+
+
+	.fc{
+		background-image: url(grtgr.png);
+		height: 30px;
+		width: 30px;
+		background-size: cover;
+		margin-left: 326px;
+		margin-top: -396px;
+		transition: 0.8s;
+	}
+
+	.fb{
+		background-image: url(jhjhgjh.png);
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    margin-left: 326px;
+    margin-top: 25px;
+    transition: 0.8s;
+	}
+	
+	.mp{
+		background-image: url(ioop.png);
+		height: 30px;
+		width: 30px;
+		background-size: cover;
+		margin-left: 326px;
+		margin-top: 25px;
+		transition: 0.8s;
+	}
+	.op{
+		font-family: Arial;
+		background-color: #ff000038;
+		color: white;
+		margin-left: 20px;
+		 margin-top: 0px; 
+		width: 75px;
+		font-size: 13px;
+		border-radius: 8%;
+		padding: 11px;
+		text-align: center;
+		transition: 0.20s;
+	}
+
+	.np{
+		font-family: Arial;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		color: white;
+		transition: 0.10s;
+		font-size: 10px;
+	}
+	.hn{
+		background-image: url(fghhk.png);
+		height: 30px;
+		width: 81px;
+		background-size: cover;
+		margin-right: 6px;
+		margin-left: 5px;
+	}
+	.vp{
+		background-color: red;
+        height: 93px;
+        width: 21px;
+        border-bottom-left-radius: 80px;
+        margin-left: 10px;
+	
+	}
+	.yo{
+		background-image: url(hkyhj.png);
+		height: 30px;
+		width: 30px;
+		background-size: cover;
+		margin-left: 326px;
+		margin-top: 25px;
+		transition: 0.8s;
+	}
 }
