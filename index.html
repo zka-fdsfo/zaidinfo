@@ -37,11 +37,13 @@
 			<div class="vp"></div>
 			
 		</div>
+		
 		<div class="ji">
 			<h1 class="op">Welcome!</h1>
 			<h2 class="sub">Uncover the Extraordinary: Your Daily Dose of Fascinating Facts</h2>
 			<p class="fi">Welcome to our Fact Channel! Here, we dive deep into the fascinating world of facts, uncovering the most intriguing and surprising information about our planet and beyond. Whether you're a trivia enthusiast, a curious mind, or just looking to learn something new every day, you've come to the right place. Our videos are packed with well-researched and entertaining content, designed to expand your knowledge and spark your curiosity. Hit that subscribe button and join our community of fact lovers, where learning is fun and discovery never ends. Get ready to explore the extraordinary details of the world with us!</p>
 		</div>
+		
 		<div class="im "></div>
 		<a href="https://www.facebook.com/zkagyan/" target="_blank">
 			<div class="fc p"></div>
@@ -153,17 +155,39 @@
 		<br>
 		<div class="km"></div>
 		<div class="nn"></div>
+		
 	</div>
 	<div class="kl">
 		<div class="qz">Thank you for visiting Z Ka Gyan! We appreciate your time and interest in exploring our website. Your support means the world to us, and we're delighted to have you as part of our community. Whether you're here to gain knowledge, find inspiration, or simply browse, we hope you found what you were looking for. Your presence and engagement help us continue to grow and improve. If you have any feedback or suggestions, please feel free to share. Once again, thank you for choosing Z Ka Gyan, and we look forward to seeing you again soon!
 		</div>
+		
 		</div>
 	</footer>
+
 	<script>
 		var loader = document.getElementById("pre");
 		window.addEventListener("load",function(){
           loader.style.display="none";
+		  
 		})
+	</script>
+	<script>
+		function filterFunction() {
+
+var input, filter, dropdown, options, i;
+
+input =document.getElementById ("searchInput");
+
+filter= input. value.toUpperCase();
+
+dropdown= document.getElementById("myDropdown");
+
+options =dropdown.getElementsByTagName("a");
+for (i=0; i <options.length; i++)
+
+options[1].style.display
+
+options[i].innerText.toUpperCase().includes (filter)? "block": "none";}
 	</script>
 </body>
 </html>
