@@ -641,7 +641,7 @@ a{
 	position: fixed;
 	z-index: 100;
 }
-@media screen and (max-width:700px){
+@media screen and (min-width:700px){
 	.im{background-image: url(ergrt.png);
     width: 186px;
     height: 189px;
