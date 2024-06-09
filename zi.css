@@ -56,3 +56,30 @@ html::-webkit-scrollbar-thumb{
     background-color: #132589;
     box-shadow: 20px 20px 60px black ;
 }
+@media screen and (max-width:700px ){
+    
+    .op {
+        height: 12px;
+        width: 53px;
+        margin-left: 200px;
+        margin-top: -24px;
+        background-color: #184781;
+        color: rgb(255, 255, 255);
+        font-family: "Poppins", sans-serif;
+        padding: 2px;
+        border-radius: 20px;
+        text-decoration: none;
+        transition: 0.10s;
+        font-size: 8px;
+    }
+    .fi {
+        transition: 0.10s;
+        height: 179px;
+        width: 257px;
+        border-radius: 20px;
+        background-image: url(jyku.png);
+        background-size: cover;
+        margin-left: 20px;
+        margin-top: -185px;
+    }
+}
