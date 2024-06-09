@@ -641,6 +641,9 @@ a{
     font-family: "Poppins", sans-serif;
     display: flex;
 	top: 138px;
+	justify-content: center;
+	align-items: center;
+	
 
 }
 
