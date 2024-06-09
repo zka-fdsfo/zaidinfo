@@ -624,12 +624,14 @@ a{
 }
 #pre{
 	background: #1d1f39  url(yhtj.gif) no-repeat center center;
-	background-size: 30%;
+	background-size: 40%;
 	height: 100%;
 	width: 100%;
 	position: fixed;
 	z-index: 100;
 	display: flex;
+	justify-content: center;
+        align-items: center;
 }
 .bj{
 	color: #1ec9ff;
