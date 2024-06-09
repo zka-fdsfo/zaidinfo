@@ -13,11 +13,22 @@
 
 </head>
 <body>
+    <div id="pre">
+		<h1 class="bj">Please wait...</h1>
+
+	</div>
     <div class="gi">
         <div class="fi"></div>
         <a  href="index.html">
         <div class="op">Go Back</div>
-    </a>
+    </a> 
     </div>
+    <script>
+		var loader = document.getElementById("pre");
+		window.addEventListener("load",function(){
+          loader.style.display="none";
+		  
+		})
+	</script>
 </body>
 </html>
