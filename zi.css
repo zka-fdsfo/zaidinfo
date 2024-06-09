@@ -56,6 +56,32 @@ html::-webkit-scrollbar-thumb{
     background-color: #132589;
     box-shadow: 20px 20px 60px black ;
 }
+#pre{
+	background: #1d1f39  url(yhtj.gif) no-repeat center center;
+	background-size: 30%;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bj{
+	color: #1ec9ff;
+    background-size: 30%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+	top: 138px;
+	justify-content: center;
+	align-items: center;
+
+
+}
 @media screen and (max-width:700px ){
     
     .op {
