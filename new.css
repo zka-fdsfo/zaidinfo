@@ -1044,5 +1044,18 @@ a{
     border-bottom-right-radius: 5px;
     transition: 0.10s;
 }
+	.bj {
+    color: #1ec9ff;
+    background-size: 30%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    top: 138px;
+    justify-content: center;
+    align-items: center;
+}
 }
 
