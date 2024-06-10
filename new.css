@@ -1057,5 +1057,16 @@ a{
     justify-content: center;
     align-items: center;
 }
+	#pre {
+    background: #1d1f39 url(yhtj.gif) no-repeat center center;
+    background-size: 142%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 
