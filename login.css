@@ -3,7 +3,7 @@
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
-.bz{
+body{
     background-image: url(Screenshot\ \(146\).png);
     background-size: cover;
     height:762px;
@@ -23,11 +23,12 @@
     width: 100%;
     height: 100%;
     backdrop-filter: blur(5px);
+
     
 }
 
 .login-box {
-    background: rgba(255, 255, 255, 0.15);
+    background:linear-gradient(#171325, #030d3f);
     border-radius: 15px;
     padding: 30px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
@@ -56,7 +57,7 @@
     padding: 10px;
     border: none;
     border-radius: 40px;
-    background: rgba(255, 255, 255, 0.25);
+    background:linear-gradient(#171325, #030d3f);
     color: #ffffff;
     font-size: 16px;
     border: white solid 2px;
@@ -88,7 +89,7 @@ button {
     padding: 10px;
     border: none;
     border-radius: 40px;
-    background-color: #ffffff;
+    background:linear-gradient(#ffffff, #404e91);
     color: #000000;
     font-size: 16px;
     cursor: pointer;
