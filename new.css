@@ -6,10 +6,12 @@
 	
 	background:linear-gradient(#171325, #030d3f);;
 	height:600px;
+	background-image: url(ytkujop.png);
+    background-size: cover;
 }
 
 .np{
-	 font-family:Arial;
+	font-family:Arial;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -144,7 +146,7 @@
 	font-size:22px;
 }
 .im{
-	background-image: url(ergrt.png);
+	
 	width:431px;
     height:431px;
    background-size: cover;
@@ -653,7 +655,14 @@ a{
 }
 
 @media screen and (max-width:700px ){
-	.im{background-image: url(ergrt.png);
+	.hn1{
+	
+		background:linear-gradient(#171325, #030d3f);;
+		height:640px;
+		background-image: url(okn.png);
+		background-size: cover;
+	}
+	.im{
     width: 186px;
     height: 189px;
     background-size: cover;
@@ -689,7 +698,7 @@ a{
 		background-color: red;
 		height: 69px;
 		width: 74px;
-		margin-top: 153px;
+		margin-top: 181px;
 		border-top-right-radius: 80px;
 	}
 
